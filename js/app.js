@@ -11,7 +11,7 @@ function generate() {
     }
   }
 
-  return numbers;
+  return numbers.sort((a, b) => { return a-b });
 }
 
 /*배열 안에 number가 포함되어 있는지 확인*/
